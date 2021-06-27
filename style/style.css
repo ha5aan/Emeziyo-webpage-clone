@@ -1,0 +1,146 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: lightgray;
+}
+.container{
+    margin: 0px;
+    padding: 0px;
+}
+ul{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    display: inline-block;
+    
+}
+ul li{
+    display: inline-block;
+    margin-left: 10px;
+    
+}
+.side_pane{
+    float: right;
+    margin-right: 20px;
+}
+/* li span{
+    height: 2px;
+} */
+
+.logo{
+    /* border: 3px solid blue; */
+    display: flex;
+    width: 100%;
+    height: 120px;
+background-color: white;
+border-bottom: 1px solid lightgray;
+
+}
+.image{
+    width: 46.5%;
+    padding: 38px 20px 20px 25px;
+}
+
+.search{
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    height: 30px;
+border: 2px solid orange;
+width: 29%;
+
+
+
+}
+#se{
+    width: 95%;
+    margin: 0px;
+    padding: 6px;
+    border: 1px solid orange;
+    border: none;
+    font-size: 15px;
+
+}
+#se:focus{
+    outline: none;
+
+}
+.search_icon{
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+    background-color: orange;
+    
+}
+.heart i{
+    margin: 0px;
+    padding: 0px
+}
+.heart{
+    padding:30px 0px 0px 0px ;
+    height: 55px;
+    width: 23px;
+    margin-left: -10px;
+    margin-top: 4px;
+    text-align: left;
+    border: 1px solid orange;
+
+
+    
+}
+.basket{
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    height: 30px;
+   
+}
+.second .second_item{
+    margin-top: 40px;
+    margin-bottom: 30px;
+    text-align: center;
+    padding-top: 5px;
+    padding: 5px;
+    border: 1px solid red;
+}
+.last_item{
+ font-size: 12px;
+ 
+}
+.second_nav{
+    padding: 15px;
+    background-color: white;
+}
+.Main_section{
+    display: flex;
+    margin-top: 20px;
+    width: 100%;
+    
+}
+.Product_details{
+    width: 60%;
+    background-color: white;
+    display: flex;
+}
+
+.Product_categories{
+    width: 35%;
+}
+.p_image{
+    padding: 25px;
+}
+.p_image img{
+    height: 250px;
+}
+.Product_details ul{
+    list-style: none;
+
+}
+.Product_details ul li{
+    display: block;
+    padding-top: 5px;
+}
